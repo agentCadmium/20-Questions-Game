@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decision_tree>
+	<node question="Is it considered a fast food place?">
+		<node question="Does it specialize in sandwiches/burgers?" answer="yes">
+			<node question="Does the name of the place contain a reference to a personal name?" answer="yes">
+				<node question="Is it the considered the most famous fast food restaurant in the world?" answer="yes">
+					<node question="McDonald's" answer="yes"></node>
+					<node question="Wendy's" answer="no"></node>
+				</node>
+				<node question="Is it a homonym to the underground rail transit?" answer="no">
+					<node question="Subway" answer="yes"></node>
+					<node question="Burger King" answer="no"></node>
+				</node>
+			</node>
+			<node question="Does it primarily serve pizza?" answer="no">
+				<node question="Does its name reference a game with tiles?" answer="yes">
+					<node question="Domino's Pizza" answer="yes"></node>
+					<node question="Pizza Hut" answer="no"></node>
+				</node>
+				<node question="Does its name contain the name of a state?" answer="no">
+					<node question="KFC" answer="yes"></node>
+					<node question="Panera Bread" answer="no"></node>
+				</node>
+			</node></node>
+		<node question="Does it focus on fine/casual dining?" answer="no">
+			<node question="Does it focus on serving mainstream American dishes? " answer="yes">
+				<node question="Does its name contain a day of the week?" answer="yes">
+					<node question="T.G.I. Friday's" answer="yes"></node>
+					<node question="Applebee's" answer="no"></node>
+				</node>
+				<node question="Does it primarily serve Italian cuisine?" answer="no">
+					<node question="Olive Garden" answer="yes"></node>
+					<node question="Red Lobster" answer="no"></node>
+				</node>
+			</node>
+			<node question="Does the food in which it specializes appear in this place's name? " answer="no">
+				<node question="Is there one in the Village Commons?" answer="yes">
+					<node question="Berkshire Yogurt" answer="yes"></node>
+					<node question="Dunkin' Donuts" answer="no"></node>
+				</node>
+				<node question="Is it the world's most famous coffeehouse?" answer="no">
+					<node question="Starbucks" answer="yes"></node>
+					<node question="Baskin-Robbins" answer="no"></node>
+				</node>
+			</node>
+		</node></node></decision_tree>

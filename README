@@ -1,0 +1,16 @@
+
+Instructions for running the application:
+	folder for images: images;
+	folder for data: data.
+
+BONUSES:
+		1) restarting the game;
+		2) save the modified decision tree to an XML file for the 
+		next game.
+
+
+NEW JAVA CLASS: JOptionPane.
+JOptionPane creates standard dialogs. I use it to show the
+user a list of restaurants, ask the user to think of one of them, let the 
+user pick a restaurant that is not on the pre-specified list, etc. 
+Link: https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.htm

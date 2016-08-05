@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decision_tree>
+	<node question="Q1">
+		<node question="Q2" answer="yes">
+			<node question="Q4" answer="yes">
+				<node question="Q8" answer="yes">
+					<node question="A1" answer="yes"></node>
+					<node question="A2" answer="no"></node>
+				</node>
+				<node question="Q9" answer="no">
+					<node question="A3" answer="yes"></node>
+					<node question="A4" answer="no"></node>
+				</node>
+			</node>
+			<node question="Q5" answer="no">
+				<node question="Q10" answer="yes">
+					<node question="A5" answer="yes"></node>
+					<node question="A6" answer="no"></node>
+				</node>
+				<node question="Q11" answer="no">
+					<node question="A7" answer="yes"></node>
+					<node question="A8" answer="no"></node>
+				</node>
+			</node></node>
+		<node question="Q3" answer="no">
+			<node question="Q6" answer="yes">
+				<node question="Q12" answer="yes">
+					<node question="A9" answer="yes"></node>
+					<node question="A10" answer="no"></node>
+				</node>
+				<node question="Q13" answer="no">
+					<node question="A11" answer="yes"></node>
+					<node question="A12" answer="no"></node>
+				</node>
+			</node>
+			<node question="Q7" answer="no">
+				<node question="Q14" answer="yes">
+					<node question="A13" answer="yes"></node>
+					<node question="A14" answer="no"></node>
+				</node>
+				<node question="Q15" answer="no">
+					<node question="A15" answer="yes"></node>
+					<node question="A16" answer="no"></node>
+				</node>
+			</node>
+		</node></node></decision_tree>
